@@ -4,6 +4,8 @@ A self-contained HTML5 platformer with eight stages across two worlds, generated
 
 ## Play
 
+**[▶ Play](https://html-preview.github.io/?url=https://github.com/bielesibub/mosslight-run/main/mosslight-run.html)**
+
 Download [mosslight-run.html](mosslight-run.html) and open it in a modern browser. Click the game or press **Enter** to start. Choose any stage using **Jump to level → Play level**.
 
 You can also serve the folder locally:
