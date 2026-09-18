@@ -1,0 +1,5 @@
+.DS_Store
+# Local development references and downloaded installers are not runtime assets.
+levels/
+*.dmg
+node_modules/
