@@ -31,6 +31,18 @@ Then open <http://localhost:8000/mosslight-run.html>. Sound starts after a click
 
 Touch controls appear on narrow screens. A first growth pickup makes the player larger; a second becomes a fire flower. Taking damage removes the upgrade.
 
+## Texture packs
+
+Use **Texture pack** above the game to change its appearance:
+
+- **Mosslight · Original** — warm stone and leafy greens.
+- **Candy Circuit** — wafer bricks, sprinkle tiles, and sherbet colors.
+- **Frostbyte** — carved ice, snowy ground, and cool blues.
+- **Neon Nights** — circuit panels, bright edges, and violet skies.
+- **Pocket Green** — dithered tiles and a four-color handheld palette.
+
+Each pack includes original procedural tile textures and matching colors for characters, scenery, pipes, and hazards. All five are embedded in the HTML and work offline. Choosing a pack preserves your position and progress; opening the selector pauses active gameplay, and clicking the game resumes it. Your choice is saved locally when browser storage is available. Texture packs do not change physics, collisions, or level layouts.
+
 ## Stages
 
 1. **1-1 · Fernway Fields** — ground-level obstacles, coins, enemies, and pipes.
@@ -53,3 +65,5 @@ This is an independent, approximate implementation inspired by classic NES platf
 ## Validation
 
 Development checks were run in headless Chrome for stage loading, power-ups, fireballs, swimming, pipes, stage progression, lift alignment and riding, escaping narrow gaps, crouching, and ceiling clearance. The latest crouch update passed 11 focused checks plus 42 gameplay regression checks. Those development scripts are not bundled in this repository.
+
+Texture-pack validation covered all five packs across eight stages, distinct tile patterns, unchanged game state, selection persistence, and mobile layout (50 checks).
